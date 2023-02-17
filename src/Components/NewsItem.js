@@ -26,7 +26,7 @@ export class NewsItem extends Component {
               {title}...
             </h5>
             <p className="card-text">{desc}...</p>
-            <p class="card-text">
+            <p className="card-text">
               <small className="text-muted">
                 By {!author ? "Unknown" : author} on{" "}
                 {new Date(date).toGMTString()}
